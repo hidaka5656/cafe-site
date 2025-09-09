@@ -5,6 +5,37 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>店名 | 公式サイト</title>
   <meta name="description" content="世界一のカフェオレ。○○市のカフェ『店名』公式サイト。メニュー・ストーリー・アクセス情報。" />
+
+  <!-- 構造化データ: カフェ情報（検索のリッチ表示用） -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "CafeOrCoffeeShop",
+    "name": "店名",
+    "url": "https://<ユーザー名>.github.io/cafe-site/",
+    "image": "https://<ユーザー名>.github.io/cafe-site/images/hero.jpg",
+    "telephone": "000-000-0000",
+    "address": {
+      "@type": "PostalAddress",
+      "postalCode": "000-0000",
+      "addressRegion": "○○県",
+      "addressLocality": "○○市",
+      "streetAddress": "○○1-2-3"
+    },
+    "priceRange": "¥¥",
+    "servesCuisine": "Coffee, Desserts, Sandwiches",
+    "openingHoursSpecification": [
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday","Wednesday","Thursday","Friday","Saturday","Sunday"],
+        "opens": "09:00",
+        "closes": "18:00"
+      }
+    ],
+    "sameAs": ["https://instagram.com/"]
+  }
+  </script>
+
   <style>
     :root{
       --bg:#faf9f7;
@@ -288,4 +319,3 @@
   </script>
 </body>
 </html>
-あれれのれ
